@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+/*  FONT USED:
+1. 'Roboto', sans-serif
+2. 'Source Sans Pro', sans-serif
+3. 'Bungee Shade', cursive 
+4. 'Open Sans', sans-serif*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    /* border: 1px solid red; */
+    background-image: url(./img.jpg);
+    background-size: 1920px 902px;
+    background-repeat: no-repeat;
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+}
+
+
+
+/* Navigation Bar */
+header h2{
+    color: whitesmoke;
+    font-family: 'Bungee Shade', cursive ;
+    font-size: 50px;
+    display: inline-block;
+}
+
+header{
+    margin-top: 45px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.main-nav{
+    /* border: 1px solid gold; */
+    color: white;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid green; */
+}
+
+.navigation > li{
+    /* border: 1px solid red; */
+    margin-top: 14px;
+    margin-right: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: lowercase;
+    font-size: 20px;
+}
+
+nav > .fa{
+    margin-top: 3px;
+    color: black;
+    font-size: 21px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 14px;  
+}
+
+
+
+/* Main container */
+
+.main-container{
+    /* border: 1px solid red; */
+    margin-top: 120px;
+    margin-left: 6%;
+    margin-right: 10%;
+}
+
+.main-container hr{
+    width: 50px;
+    display: inline-block;
+    border: 2px solid white;
+}
+
+.main-container h1{
+    color: white;
+    display: inline-block;
+    vertical-align: -100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+}
+
+.main-container > p{
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 500;
+    width: 392px;
+    margin-top: 20px;
+    margin-left: 71px;
+}
+
+.main-container  a{
+    color: white;
+    line-height: 7em;
+    margin-left: 71px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    /* border: 1px solid darkblue; */
+    text-decoration: none;
+}
+
+.main-container i.fa{
+    color: white;
+    padding-left: 10px;
+}
+
+
+/* what provided by us */
+
+
+.main-box{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    background-color: #0e49b5;
+    color: white;
+    flex-basis: 380px;
+    font-family: 'Roboto',sans-serif;
+    height: 305px;
+    padding: 40px;
+    border-right: 1px solid #cdd0cb;
+}
+
+.main-box .box3{
+    border: none;
+}
+
+.box i{
+    font-size: 40px;
+}
+
+.box h3{
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+.box p{
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+.box2 h3{
+    margin-top: 70px;
+}
+
+.box4{
+    background-color: black;
+    width: 600px;
+    margin-top: 70px;
+    padding: 30px;
+}
+.box4 hr{
+    display: inline-block;
+    width: 20px;
+    border: 1px solid white;
+}
+.box4 h6{
+    color: white;
+    display: inline;
+    font-family: monospace;
+    font-size: 20px;
+}
+.box4 p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 90px;
+}
