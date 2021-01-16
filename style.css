@@ -189,3 +189,323 @@ nav > .fa{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 90px;
 }
+
+/* Rest of CSS code */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* border: 2px solid red; */
+    margin: 40px 10%;
+}
+
+.trusted{
+    font-weight: bolder;
+    font-size: 37px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: 2px solid blue; */
+    margin: 2px;
+    display: inline-block;
+}
+
+.company{
+    font-size: 32px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: gray;
+    /* border: 2px solid blue; */
+
+}
+
+.customers{
+    position: absolute;
+    right: 15%;
+    top: 45px;
+    /* border: 2px solid blue; */
+    color: blue;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 170px;
+    margin: 8px;
+    display: inline-block;
+}
+h1{
+    display: inline;
+    position: absolute;
+    left: 170px;
+    top: -20px;
+    /* border: 2px solid red; */
+    width: 40px;
+    height: 42px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logobox{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 100%;
+}
+
+.box p{
+    position: relative;
+    top: 45%;
+    left: 25%;
+    font-size: 25px;
+    color: grey
+}
+#box-11{
+    /* border: 2px solid red; */
+    width: 220px;
+    background-color: rgb(223, 223, 223);
+    height: 220px;
+    margin-right: 2px;
+    margin-left: 10%;
+}
+
+
+#box-12{
+    /* border: 2px solid red; */
+    width: 220px;
+    height: 220px;
+    margin-right: 2px;
+    background-color: rgb(223, 223, 223);
+}
+
+#box-13{
+    /* border: 2px solid red; */
+    width: 220px;
+    height: 220px;
+    margin-right: 2px;
+    background-color: rgb(223, 223, 223);
+}
+
+#box-14{
+    /* border: 2px solid red; */
+    width: 220px;
+    height: 220px;
+    margin-right: 2px;
+    background-color: rgb(223, 223, 223);
+}
+
+#box-15{
+    /* border: 2px solid red; */
+    width: 220px;
+    height: 220px;
+    margin-right: 2px;
+    background-color: rgb(223, 223, 223);
+}
+
+#box-16{
+    /* border: 2px solid red; */
+    width: 220px;
+    height: 220px;
+    margin-right: 2px;
+    background-color: rgb(223, 223, 223);
+}
+
+.articles{
+    margin-top: 50px;
+    /* border: 2px solid blue; */
+    display: flex;
+}
+
+#part1{
+    /* border: 2px solid red; */
+    width: 420px;
+    margin-right: 10%;
+    margin-left: 20%;
+    color: gray;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#part2{
+    /* border: 2px solid red; */
+    width: 420px;
+    color: gray;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#invert1{
+    height: 200px;
+    position: absolute;
+    left: 230px;
+    top: 445px;
+    transform: scale(-1, -1);
+    /* border: 2px solid blue; */
+    font-size: 350px;
+    color: blue;
+    font-family: 'Qwigley';
+}
+#invert2{
+    height: 200px;
+    position: absolute;
+    right: 670px;
+    top: 445px;
+    transform: scale(-1, -1);
+    /* border: 2px solid blue; */
+    font-size: 350px;
+    color: blue;
+    font-family: 'Qwigley';
+}
+
+.identity{
+    /* border: 2px solid blue; */
+    color: rgb(44, 44, 44);
+    font-weight:bold;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.bottom{
+    /* border: 2px solid black; */
+    margin: 160px auto;
+    width: 100%;
+    height: 100px;
+}
+
+#interested{
+    /* border: 2px solid red; */
+    display: block;
+    position: relative;
+    left: 10%;
+    color: blue;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 509px;
+}
+
+#learnmore{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    color: grey;
+    width: 495px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 42%;
+    top: -23px;
+}
+
+#contact{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 44%;
+    top: -23px;
+    background-color: blue;
+    color: white;
+    border-radius: 34px;
+    padding: 9px 22px;
+    border-color: blue;
+}
+
+.logo{
+    /* border: 2px solid red; */
+    margin-top: 35px;
+    position: relative;
+    left: 10%;
+    display: inline-block;
+    color: gray;
+    height: 100px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3em;
+
+}
+
+.inner-footer{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(24, 24, 24);
+
+}
+
+.quick-links{
+    display: flex;
+    position: absolute;
+    top: 152%;
+    left: 17%;
+}
+
+.quick-links ul{
+    display: flex;
+}
+
+.quick-items{
+    list-style: none;
+}
+
+.quick-items a{
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 18px;
+    color: white;
+}
+
+.social-links ul{
+    /* border: 2px solid red; */
+    display: flex;
+    position: absolute;
+    right: 10%;
+    top: 152%;
+}
+
+.social-items{
+    list-style: none;
+}
+
+.social-items a{
+    /* border: 2px solid red; */
+    position: relative;
+    left: 20%;
+    padding: 7px 10px;
+    height: 10px;
+    margin: 8px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #181818;
+    background-color: white;
+}
+
+hr{
+    border: 1px solid rgb(24, 24, 24);;
+    width: 153px;
+    color: rgb(24, 24, 24);;
+}
+
+.outer-footer{
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 10px;
+    color: grey;
+    background-color: rgb(24, 24, 24);
+}
+
+.outer-footer p{
+    position: relative;
+    left: 10%;
+}
+
+.outer-footer a{
+    position: relative;
+    left: 74%;
+    margin-left: 18px;
+    color: gray;
+}
