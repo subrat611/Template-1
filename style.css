@@ -135,7 +135,7 @@ nav > .fa{
     flex-wrap: wrap;
 }
 
-.box{
+.mainbox{
     background-color: #0e49b5;
     color: white;
     flex-basis: 380px;
@@ -149,16 +149,16 @@ nav > .fa{
     border: none;
 }
 
-.box i{
+.mainbox i{
     font-size: 40px;
 }
 
-.box h3{
+.mainbox h3{
     font-size: 25px;
     margin-top: 100px;
 }
 
-.box p{
+.mainbox p{
     margin-top: 24px;
     font-size: 20px;
 }
@@ -190,17 +190,19 @@ nav > .fa{
     margin-top: 90px;
 }
 
-/* Rest of CSS code */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
+
+
+
+
+
+
+/* Rest of CSS code */
 
 .container{
     /* border: 2px solid red; */
-    margin: 40px 10%;
+    margin: 105px 10%;
 }
 
 .trusted{
@@ -221,33 +223,31 @@ nav > .fa{
 }
 
 .customers{
+    display: inline-flex;
     position: absolute;
     right: 15%;
-    top: 45px;
+    top: 123%;
     /* border: 2px solid blue; */
     color: blue;
     font-weight: bold;
     font-size: 23px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 170px;
-    margin: 8px;
-    display: inline-block;
 }
-h1{
-    display: inline;
-    position: absolute;
-    left: 170px;
-    top: -20px;
-    /* border: 2px solid red; */
-    width: 40px;
-    height: 42px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.customers i{
+    margin-top: 3px;
+    margin-left: 10px;
 }
 
 .logobox{
     /* border: 2px solid black; */
     display: flex;
     width: 100%;
+    overflow: hidden;
+}
+
+.box{
+    width: 300px;
 }
 
 .box p{
@@ -255,11 +255,12 @@ h1{
     top: 45%;
     left: 25%;
     font-size: 25px;
-    color: grey
+    font-family: 'Roboto',sans-serif;
+    color: grey;
 }
-#box-11{
+.box-11{
     /* border: 2px solid red; */
-    width: 220px;
+    /* width: 220px; */
     background-color: rgb(223, 223, 223);
     height: 220px;
     margin-right: 2px;
@@ -267,41 +268,41 @@ h1{
 }
 
 
-#box-12{
+.box-12{
     /* border: 2px solid red; */
-    width: 220px;
+    /* width: 220px; */
     height: 220px;
     margin-right: 2px;
     background-color: rgb(223, 223, 223);
 }
 
-#box-13{
+.box-13{
     /* border: 2px solid red; */
-    width: 220px;
+    /* width: 220px; */
     height: 220px;
     margin-right: 2px;
     background-color: rgb(223, 223, 223);
 }
 
-#box-14{
+.box-14{
     /* border: 2px solid red; */
-    width: 220px;
+    /* width: 220px; */
     height: 220px;
     margin-right: 2px;
     background-color: rgb(223, 223, 223);
 }
 
-#box-15{
+.box-15{
     /* border: 2px solid red; */
-    width: 220px;
+    /* width: 220px; */
     height: 220px;
     margin-right: 2px;
     background-color: rgb(223, 223, 223);
 }
 
-#box-16{
+.box-16{
     /* border: 2px solid red; */
-    width: 220px;
+    /* width: 220px; */
     height: 220px;
     margin-right: 2px;
     background-color: rgb(223, 223, 223);
@@ -316,7 +317,7 @@ h1{
 #part1{
     /* border: 2px solid red; */
     width: 420px;
-    margin-right: 10%;
+    margin-right: 15%;
     margin-left: 20%;
     color: gray;
     font-size: 23px;
@@ -332,10 +333,9 @@ h1{
 }
 
 #invert1{
-    height: 200px;
     position: absolute;
-    left: 230px;
-    top: 445px;
+    left: 326px;
+    top: 145%;
     transform: scale(-1, -1);
     /* border: 2px solid blue; */
     font-size: 350px;
@@ -343,10 +343,9 @@ h1{
     font-family: 'Qwigley';
 }
 #invert2{
-    height: 200px;
     position: absolute;
-    right: 670px;
-    top: 445px;
+    right: 825px;
+    top: 145%;
     transform: scale(-1, -1);
     /* border: 2px solid blue; */
     font-size: 350px;
@@ -399,7 +398,7 @@ h1{
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    left: 42%;
+    left: 49%;
     top: -23px;
 }
 
@@ -408,7 +407,7 @@ h1{
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    left: 44%;
+    left: 52%;
     top: -23px;
     background-color: blue;
     color: white;
@@ -440,7 +439,7 @@ h1{
 .quick-links{
     display: flex;
     position: absolute;
-    top: 152%;
+    top: 257%;
     left: 17%;
 }
 
@@ -464,7 +463,7 @@ h1{
     display: flex;
     position: absolute;
     right: 10%;
-    top: 152%;
+    top: 257%;
 }
 
 .social-items{
@@ -484,11 +483,6 @@ h1{
     background-color: white;
 }
 
-hr{
-    border: 1px solid rgb(24, 24, 24);;
-    width: 153px;
-    color: rgb(24, 24, 24);;
-}
 
 .outer-footer{
     /* border: 1px solid red; */
@@ -505,6 +499,7 @@ hr{
 
 .outer-footer a{
     position: relative;
+    top: 10%;
     left: 74%;
     margin-left: 18px;
     color: gray;
